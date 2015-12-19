@@ -5,10 +5,10 @@ name: Hyun Kim
 description:
 
   # Discription of your site, this will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta:
 
   # Discription of your site, this will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: Hyun Kim's rabbling about biohacks, internet startups, law, economics, literature, English and everything else
 
 author:
   name: Hyun Kim
@@ -20,7 +20,7 @@ author:
   # want it.
   info:
 
-url: http://hyunkimkr.github.io
+url: http://hyunkim.kr
 baseurl:
 
 # language attribute in <html> element.
@@ -37,7 +37,7 @@ lang: ko
 show-subtitle: true
 display-social-icons: false
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: "&copy; Hyun Kim"
 
 # Preferrably 64px in height. Leave empty = disbale.
 logo-image: # /img/logo.png
@@ -72,7 +72,7 @@ date_format: "%b %-d, %Y"
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 3
+paginate: 10
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false
@@ -80,7 +80,7 @@ display-next-prev-post: false
 # Leave empty if you don't want comments on post pages.
 disqus-shortname:
 
-
+gems: [jekyll-paginate]
 ################
 # SOCIAL ICONS #
 ################
@@ -114,13 +114,13 @@ paypal:
 # Usefull for translating into other languages.
 
 var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
-var_older: Older
-var_next_post: Next post
-var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
+var_read: 더 읽기 # Text after each post summary on the homepage.
+var_newer: 새 글
+var_older: 오래된 글
+var_next_post: 다음 글
+var_previous_post: 이전 글
+var_less_than_a_minute_read: 1분 미만
+var_min_read: 분째 읽음 # Text after reading time. Example: 5 min read.
 var_post_by: Post by
 var_guest_post_by: Guest post by
 var_your_email: Your email
